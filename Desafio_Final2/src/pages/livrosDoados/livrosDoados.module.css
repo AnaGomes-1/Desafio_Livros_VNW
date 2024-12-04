@@ -1,0 +1,47 @@
+.livrosDoadosSection {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.livrosDoadosSection h2 {
+  font-size: 32px;
+}
+
+.containerCards {
+  width: 95%;
+  height: 60vh;
+}
+.containerCards section {
+  border: solid 3px #005695;
+  border-radius: 20px;
+  width: 18%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.containerCards section:hover {
+  background-color: #005695;
+  color: #ffffff;
+}
+.containerCards section div {
+  text-align: center;
+}
+.containerCards section div h3, .containerCards section div p {
+  transition: color 0.2s ease-in-out;
+}
+
+@media (max-width: 780px) {
+  .containerCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .containerCards section {
+    width: 60%;
+  }
+}/*# sourceMappingURL=livrosDoados.module.css.map */
